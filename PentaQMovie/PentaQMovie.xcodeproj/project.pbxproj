@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2918E6881C91293C00B7FC39 /* PQFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2918E6871C91293C00B7FC39 /* PQFullView.m */; };
+		2960E5991C8E73E000A6911F /* PQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960E5981C8E73E000A6911F /* PQPlayer.m */; };
+		2960E59B1C8E73FF00A6911F /* PQPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960E59A1C8E73FF00A6911F /* PQPlayer.xib */; };
+		2960E59E1C8E771D00A6911F /* PQFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960E59D1C8E771D00A6911F /* PQFullViewController.m */; };
+		29CFEF701C61F625006A7F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEF6F1C61F625006A7F9F /* main.m */; };
+		29CFEF731C61F625006A7F9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEF721C61F625006A7F9F /* AppDelegate.m */; };
+		29CFEF761C61F625006A7F9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEF751C61F625006A7F9F /* ViewController.m */; };
+		29CFEF791C61F625006A7F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CFEF771C61F625006A7F9F /* Main.storyboard */; };
+		29CFEF7B1C61F625006A7F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CFEF7A1C61F625006A7F9F /* Assets.xcassets */; };
+		29CFEF7E1C61F625006A7F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CFEF7C1C61F625006A7F9F /* LaunchScreen.storyboard */; };
+		29CFEF891C61F625006A7F9F /* PentaQMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEF881C61F625006A7F9F /* PentaQMovieTests.m */; };
+		29CFEF941C61F625006A7F9F /* PentaQMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEF931C61F625006A7F9F /* PentaQMovieUITests.m */; };
+		29CFEFA31C61F67B006A7F9F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEFA21C61F67B006A7F9F /* VideoViewController.m */; };
+		29CFEFA71C61F6EA006A7F9F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEFA61C61F6EA006A7F9F /* Player.m */; };
+		29CFEFAA1C61FCBC006A7F9F /* PentaQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEFA91C61FCBC006A7F9F /* PentaQPlayer.m */; };
+		29CFEFAD1C6203FF006A7F9F /* HelloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFEFAC1C6203FF006A7F9F /* HelloView.m */; };
+		29CFEFAF1C62040F006A7F9F /* HelloView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CFEFAE1C62040F006A7F9F /* HelloView.xib */; };
+		29CFEFB11C620708006A7F9F /* HelloView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29CFEFB01C620708006A7F9F /* HelloView.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29CFEF851C61F625006A7F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CFEF631C61F624006A7F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CFEF6A1C61F625006A7F9F;
+			remoteInfo = PentaQMovie;
+		};
+		29CFEF901C61F625006A7F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CFEF631C61F624006A7F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CFEF6A1C61F625006A7F9F;
+			remoteInfo = PentaQMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2918E6861C91293C00B7FC39 /* PQFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQFullView.h; sourceTree = "<group>"; };
+		2918E6871C91293C00B7FC39 /* PQFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQFullView.m; sourceTree = "<group>"; };
+		2960E5971C8E73E000A6911F /* PQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPlayer.h; sourceTree = "<group>"; };
+		2960E5981C8E73E000A6911F /* PQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPlayer.m; sourceTree = "<group>"; };
+		2960E59A1C8E73FF00A6911F /* PQPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PQPlayer.xib; sourceTree = "<group>"; };
+		2960E59C1C8E771D00A6911F /* PQFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQFullViewController.h; sourceTree = "<group>"; };
+		2960E59D1C8E771D00A6911F /* PQFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQFullViewController.m; sourceTree = "<group>"; };
+		29CFEF6B1C61F625006A7F9F /* PentaQMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PentaQMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CFEF6F1C61F625006A7F9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29CFEF711C61F625006A7F9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29CFEF721C61F625006A7F9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29CFEF741C61F625006A7F9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29CFEF751C61F625006A7F9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29CFEF781C61F625006A7F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CFEF7A1C61F625006A7F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29CFEF7D1C61F625006A7F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CFEF7F1C61F625006A7F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CFEF841C61F625006A7F9F /* PentaQMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentaQMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CFEF881C61F625006A7F9F /* PentaQMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PentaQMovieTests.m; sourceTree = "<group>"; };
+		29CFEF8A1C61F625006A7F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CFEF8F1C61F625006A7F9F /* PentaQMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentaQMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CFEF931C61F625006A7F9F /* PentaQMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PentaQMovieUITests.m; sourceTree = "<group>"; };
+		29CFEF951C61F625006A7F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CFEFA11C61F67B006A7F9F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		29CFEFA21C61F67B006A7F9F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		29CFEFA51C61F6EA006A7F9F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		29CFEFA61C61F6EA006A7F9F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		29CFEFA81C61FCBC006A7F9F /* PentaQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentaQPlayer.h; sourceTree = "<group>"; };
+		29CFEFA91C61FCBC006A7F9F /* PentaQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentaQPlayer.m; sourceTree = "<group>"; };
+		29CFEFAB1C6203FF006A7F9F /* HelloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloView.h; sourceTree = "<group>"; };
+		29CFEFAC1C6203FF006A7F9F /* HelloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloView.m; sourceTree = "<group>"; };
+		29CFEFAE1C62040F006A7F9F /* HelloView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloView.xib; sourceTree = "<group>"; };
+		29CFEFB01C620708006A7F9F /* HelloView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HelloView.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CFEF681C61F625006A7F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF811C61F625006A7F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF8C1C61F625006A7F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2960E5931C8E73AC00A6911F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2960E5971C8E73E000A6911F /* PQPlayer.h */,
+				2960E5981C8E73E000A6911F /* PQPlayer.m */,
+				2960E59A1C8E73FF00A6911F /* PQPlayer.xib */,
+				2960E59C1C8E771D00A6911F /* PQFullViewController.h */,
+				2960E59D1C8E771D00A6911F /* PQFullViewController.m */,
+				2918E6861C91293C00B7FC39 /* PQFullView.h */,
+				2918E6871C91293C00B7FC39 /* PQFullView.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		29CFEF621C61F624006A7F9F = {
+			isa = PBXGroup;
+			children = (
+				29CFEF6D1C61F625006A7F9F /* PentaQMovie */,
+				29CFEF871C61F625006A7F9F /* PentaQMovieTests */,
+				29CFEF921C61F625006A7F9F /* PentaQMovieUITests */,
+				29CFEF6C1C61F625006A7F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CFEF6C1C61F625006A7F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CFEF6B1C61F625006A7F9F /* PentaQMovie.app */,
+				29CFEF841C61F625006A7F9F /* PentaQMovieTests.xctest */,
+				29CFEF8F1C61F625006A7F9F /* PentaQMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CFEF6D1C61F625006A7F9F /* PentaQMovie */ = {
+			isa = PBXGroup;
+			children = (
+				2960E5931C8E73AC00A6911F /* Player */,
+				29CFEFA41C61F6D7006A7F9F /* Video */,
+				29CFEFA11C61F67B006A7F9F /* VideoViewController.h */,
+				29CFEFA21C61F67B006A7F9F /* VideoViewController.m */,
+				29CFEF711C61F625006A7F9F /* AppDelegate.h */,
+				29CFEF721C61F625006A7F9F /* AppDelegate.m */,
+				29CFEF741C61F625006A7F9F /* ViewController.h */,
+				29CFEF751C61F625006A7F9F /* ViewController.m */,
+				29CFEF771C61F625006A7F9F /* Main.storyboard */,
+				29CFEF7A1C61F625006A7F9F /* Assets.xcassets */,
+				29CFEF7C1C61F625006A7F9F /* LaunchScreen.storyboard */,
+				29CFEF7F1C61F625006A7F9F /* Info.plist */,
+				29CFEF6E1C61F625006A7F9F /* Supporting Files */,
+			);
+			path = PentaQMovie;
+			sourceTree = "<group>";
+		};
+		29CFEF6E1C61F625006A7F9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29CFEF6F1C61F625006A7F9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29CFEF871C61F625006A7F9F /* PentaQMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				29CFEF881C61F625006A7F9F /* PentaQMovieTests.m */,
+				29CFEF8A1C61F625006A7F9F /* Info.plist */,
+			);
+			path = PentaQMovieTests;
+			sourceTree = "<group>";
+		};
+		29CFEF921C61F625006A7F9F /* PentaQMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29CFEF931C61F625006A7F9F /* PentaQMovieUITests.m */,
+				29CFEF951C61F625006A7F9F /* Info.plist */,
+			);
+			path = PentaQMovieUITests;
+			sourceTree = "<group>";
+		};
+		29CFEFA41C61F6D7006A7F9F /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				29CFEFA51C61F6EA006A7F9F /* Player.h */,
+				29CFEFA61C61F6EA006A7F9F /* Player.m */,
+				29CFEFA81C61FCBC006A7F9F /* PentaQPlayer.h */,
+				29CFEFA91C61FCBC006A7F9F /* PentaQPlayer.m */,
+				29CFEFAB1C6203FF006A7F9F /* HelloView.h */,
+				29CFEFAC1C6203FF006A7F9F /* HelloView.m */,
+				29CFEFAE1C62040F006A7F9F /* HelloView.xib */,
+				29CFEFB01C620708006A7F9F /* HelloView.bundle */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CFEF6A1C61F625006A7F9F /* PentaQMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CFEF981C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovie" */;
+			buildPhases = (
+				29CFEF671C61F625006A7F9F /* Sources */,
+				29CFEF681C61F625006A7F9F /* Frameworks */,
+				29CFEF691C61F625006A7F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PentaQMovie;
+			productName = PentaQMovie;
+			productReference = 29CFEF6B1C61F625006A7F9F /* PentaQMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29CFEF831C61F625006A7F9F /* PentaQMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CFEF9B1C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovieTests" */;
+			buildPhases = (
+				29CFEF801C61F625006A7F9F /* Sources */,
+				29CFEF811C61F625006A7F9F /* Frameworks */,
+				29CFEF821C61F625006A7F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CFEF861C61F625006A7F9F /* PBXTargetDependency */,
+			);
+			name = PentaQMovieTests;
+			productName = PentaQMovieTests;
+			productReference = 29CFEF841C61F625006A7F9F /* PentaQMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29CFEF8E1C61F625006A7F9F /* PentaQMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CFEF9E1C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovieUITests" */;
+			buildPhases = (
+				29CFEF8B1C61F625006A7F9F /* Sources */,
+				29CFEF8C1C61F625006A7F9F /* Frameworks */,
+				29CFEF8D1C61F625006A7F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CFEF911C61F625006A7F9F /* PBXTargetDependency */,
+			);
+			name = PentaQMovieUITests;
+			productName = PentaQMovieUITests;
+			productReference = 29CFEF8F1C61F625006A7F9F /* PentaQMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CFEF631C61F624006A7F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = luowei;
+				TargetAttributes = {
+					29CFEF6A1C61F625006A7F9F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					29CFEF831C61F625006A7F9F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 29CFEF6A1C61F625006A7F9F;
+					};
+					29CFEF8E1C61F625006A7F9F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 29CFEF6A1C61F625006A7F9F;
+					};
+				};
+			};
+			buildConfigurationList = 29CFEF661C61F624006A7F9F /* Build configuration list for PBXProject "PentaQMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CFEF621C61F624006A7F9F;
+			productRefGroup = 29CFEF6C1C61F625006A7F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CFEF6A1C61F625006A7F9F /* PentaQMovie */,
+				29CFEF831C61F625006A7F9F /* PentaQMovieTests */,
+				29CFEF8E1C61F625006A7F9F /* PentaQMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CFEF691C61F625006A7F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CFEF7E1C61F625006A7F9F /* LaunchScreen.storyboard in Resources */,
+				29CFEFAF1C62040F006A7F9F /* HelloView.xib in Resources */,
+				29CFEF7B1C61F625006A7F9F /* Assets.xcassets in Resources */,
+				2960E59B1C8E73FF00A6911F /* PQPlayer.xib in Resources */,
+				29CFEFB11C620708006A7F9F /* HelloView.bundle in Resources */,
+				29CFEF791C61F625006A7F9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF821C61F625006A7F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF8D1C61F625006A7F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CFEF671C61F625006A7F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2960E59E1C8E771D00A6911F /* PQFullViewController.m in Sources */,
+				29CFEF761C61F625006A7F9F /* ViewController.m in Sources */,
+				29CFEF731C61F625006A7F9F /* AppDelegate.m in Sources */,
+				29CFEFA31C61F67B006A7F9F /* VideoViewController.m in Sources */,
+				2960E5991C8E73E000A6911F /* PQPlayer.m in Sources */,
+				29CFEF701C61F625006A7F9F /* main.m in Sources */,
+				2918E6881C91293C00B7FC39 /* PQFullView.m in Sources */,
+				29CFEFA71C61F6EA006A7F9F /* Player.m in Sources */,
+				29CFEFAA1C61FCBC006A7F9F /* PentaQPlayer.m in Sources */,
+				29CFEFAD1C6203FF006A7F9F /* HelloView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF801C61F625006A7F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CFEF891C61F625006A7F9F /* PentaQMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CFEF8B1C61F625006A7F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CFEF941C61F625006A7F9F /* PentaQMovieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29CFEF861C61F625006A7F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CFEF6A1C61F625006A7F9F /* PentaQMovie */;
+			targetProxy = 29CFEF851C61F625006A7F9F /* PBXContainerItemProxy */;
+		};
+		29CFEF911C61F625006A7F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CFEF6A1C61F625006A7F9F /* PentaQMovie */;
+			targetProxy = 29CFEF901C61F625006A7F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29CFEF771C61F625006A7F9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CFEF781C61F625006A7F9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29CFEF7C1C61F625006A7F9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CFEF7D1C61F625006A7F9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CFEF961C61F625006A7F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29CFEF971C61F625006A7F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CFEF991C61F625006A7F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PentaQMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29CFEF9A1C61F625006A7F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PentaQMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29CFEF9C1C61F625006A7F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PentaQMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PentaQMovie.app/PentaQMovie";
+			};
+			name = Debug;
+		};
+		29CFEF9D1C61F625006A7F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PentaQMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PentaQMovie.app/PentaQMovie";
+			};
+			name = Release;
+		};
+		29CFEF9F1C61F625006A7F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PentaQMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PentaQMovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		29CFEFA01C61F625006A7F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PentaQMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pentaq.PentaQMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PentaQMovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CFEF661C61F624006A7F9F /* Build configuration list for PBXProject "PentaQMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CFEF961C61F625006A7F9F /* Debug */,
+				29CFEF971C61F625006A7F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CFEF981C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CFEF991C61F625006A7F9F /* Debug */,
+				29CFEF9A1C61F625006A7F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CFEF9B1C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CFEF9C1C61F625006A7F9F /* Debug */,
+				29CFEF9D1C61F625006A7F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CFEF9E1C61F625006A7F9F /* Build configuration list for PBXNativeTarget "PentaQMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CFEF9F1C61F625006A7F9F /* Debug */,
+				29CFEFA01C61F625006A7F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CFEF631C61F624006A7F9F /* Project object */;
+}
